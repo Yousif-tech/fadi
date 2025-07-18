@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Us - FHL</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+  <link rel="stylesheet" href="css/about.css" />
+  <style>
+    /* Animation Keyframes */
+    @keyframes slideFadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Apply animation to hero heading and paragraph */
+    .hero h1,
+    .hero p {
+      opacity: 0;
+      animation: slideFadeIn 1s ease forwards;
+    }
+
+    .hero h1 {
+      animation-delay: 0.3s;
+    }
+
+    .hero p {
+      animation-delay: 0.6s;
+    }
+
+    /* Mobile override to keep content centered and spaced nicely */
+    @media (max-width: 768px) {
+      .hero {
+        height: auto;
+        padding: 60px 20px;
+        background-position: center top;
+        min-height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .hero h1 {
+        font-size: 2.75rem;
+        margin-bottom: 12px;
+      }
+      .hero p {
+        font-size: 1.1rem;
+        max-width: 90%;
+        margin: 0 auto;
+        line-height: 1.5;
+      }
+    
+    }
+   
+    
+  </style>
+</head>
+<body>
+    <nav class="navbar">
+  <div class="container">
+    <a href="#" class="logo">
+  <img src="img/IMG_8825 copy.PNG" alt="FHL Logo" />
+</a>
+    <button class="nav-toggle" aria-label="toggle navigation">
+  <i class="fas fa-bars hamburger active"></i>
+  <i class="fas fa-times close-icon"></i>
+</button>
+
+    <ul class="nav-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="faq.html">Our Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+  <div class="hero">
+    <h1 id="heading">About FHL</h1>
+    <p>
+      At FHL, we merge technology and creativity to deliver the future of screen
+      advertising, digital solutions, and visual innovation.
+    </p>
+  </div>
+
+  <!-- Your content sections below -->
+
+  <script src="js/about.js"></script>
+</body>
+</html>
+
+  <!-- Sections -->
+  <section class="section">
+    <div class="content">
+      <div class="text">
+        <h2>Our Mission</h2>
+        <p>We provide smart, dynamic digital experiences through cutting-edge screen technology. Making messages unforgettable — one pixel at a time.</p>
+      </div>
+      <img src="img/screen.png" alt="Mission Image">
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="content">
+      <img src="img/image.png" alt="Story Image">
+      <div class="text">
+        <h2>Our Story</h2>
+        <p>From a small electronics startup to a visual media leader, FHL transforms spaces into dynamic, engaging displays — innovating at every turn.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="content">
+      <div class="text">
+        <h2>Our Vision</h2>
+        <p>We envision visual communication that transcends boundaries, setting new standards through constant innovation.</p>
+      </div>
+      <img src="img/visiom.png" alt="Vision Image">
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="content">
+      <img src="img/why choose.png" alt="Why Choose Us Image">
+      <div class="text">
+        <h2>Why Choose Us</h2>
+        <p>Technical precision meets artistic design. FHL delivers memorable visual solutions — on time, on budget, beyond expectations.</p>
+      </div>
+    </div>
+  </section>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/about.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
