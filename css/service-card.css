@@ -2032,6 +2032,9 @@ progress {
   }
 }
 @media (max-width: 767.98px) {
+  .page-content{
+    height: 700px;
+  }
    .service-page {
     max-width: 1000px;
   margin: 0 auto;
