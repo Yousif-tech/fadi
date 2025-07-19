@@ -107,7 +107,7 @@ body, html {
   background-position: center;
   position: relative;
   transform-style: preserve-3d;
-
+bottom: 50px;
 }
 
 .page-content {
@@ -129,7 +129,7 @@ body, html {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  
   margin: 0 auto;
 }
 .service-img {
@@ -2036,17 +2036,18 @@ progress {
     height: 700px;
   }
    .service-page {
+    height: 825px;
     max-width: 1000px;
   margin: 0 auto;
   background-color: #f0f0f0;
-  padding: 20px;
+  
  
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
   }
 
    .content-inner {
     flex-direction: column;
-    gap: 15px;
+    
   }
 
 #service-1 img {
@@ -2081,11 +2082,11 @@ progress {
   }
 
   .text-block h2 {
-    font-size: 45px;
+    font-size: 35px;
   }
 
   .text-block p {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 @media (max-width: 991.98px) {
